@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Edmund's Portfolio"
+title                    : "Edmund Goh | Portfolio & Blog"
 title_separator          : "-"
-name                     : "Edmund Goh"
-description              : "My world of design, product and business"
+name                     : "Edmund"
+description              : "My learning journey for product design, marketing and business"
 url                      : https://edmundgjj.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -81,7 +81,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Learning by doing all the time. Even this Jekyll website is after hours of learning by doing."
   location         : "San Francisco"
-  email            :
+  email            : edmund@aspiri.co
   uri              :
   bitbucket        :
   codepen          :
@@ -94,7 +94,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/edmundgjj/
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)

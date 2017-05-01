@@ -1,154 +1,224 @@
 ---
 layout: single
-title: "Quick-Start Guide"
+title: "IXL Product Design Challenge"
 permalink: /ixl
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
+excerpt: "Enhance student's online learning and practice experience and design a new homework assignment feature"
 last_modified_at: 2016-11-03T10:01:43-04:00
+author_profile: true
 sidebar:
   nav: "portfolio"
 ---
 
-Minimal Mistakes has been developed as a [Jekyll theme gem](http://jekyllrb.com/docs/themes/) for easier use. It is also 100% compatible with GitHub Pages --- just with a more involved installation process.
 
 {% include toc %}
 
-## Installing the Theme
+## Introduction
 
-If you're running Jekyll v3.3+ and self-hosting you can quickly install the theme as Ruby gem.
-If you're hosting with GitHub Pages you'll have to use the old "repo fork" method or directly copy all of the theme files[^structure] into your site.
+### About IXL Learning
 
-[^structure]: See [**Structure** page]({{ "/docs/structure/" | absolute_url }}) for a list of theme files and what they do.
+IXL is an immersive online learning platform that provides standards-aligned practices for Math, Language arts, Science and Social Studies, covering more than 6000 skills for K-12 students.Through highly interactive content and an adaptive learning system, students are not only engaged in practicing but also develop concepts and skills mastery that prepares them for school, standards assessment and eventually lifelong learning.
 
-**ProTip:** Be sure to remove `/docs` and `/test` if you forked Minimal Mistakes. These folders contain documentation and test pages for the theme and you probably don't littering up in your repo.
-{: .notice--info}
+### What did I do for the project?
 
-### Ruby Gem Method
+*   Wrote a short paragraph to describe IXL to teachers
+*   Conducted user research through in-depth interviews with K-12 teachers for product design
+*   Made four product enhancement recommendations that included:
+    1.  Include behavioral design elements like social proof and healthy competition to enhance the user engagement
+    2.  Enhancing UI for learning progression while students practice their questions to improve motivation
+    3.  Proposed alternative scoring methods for Challenge Zone to current points-based UI to create a more satisfying experience
+    4.  Offline access to practices for students on mobile and tablet applications.
+*   Design the homework assignment feature for students and teachers
 
-Add this line to your Jekyll site's `Gemfile`:
+This project took me a total of 4 days from research, designing the features, making the prototypes to finally, documenting and writing the proposal.
 
-```ruby
-gem "minimal-mistakes-jekyll"
-```
+### Tools that I used for this project
 
-Add this line to your Jekyll site's `_config.yml` file:
+*   Sketch for UI wireframes and grayscale prototypes
+*   Lucidcharts for user flow
+*   Invision for interactive prototype
+*   Deployed Jekyll for online documentation of design process
 
-```yaml
-theme: minimal-mistakes-jekyll
-```
+## My Research and Design Process
 
-Then run Bundler to install the theme gem and dependencies:
+To formulate product recommendations that really meet user needs, I conducted in-depth one-on-one interviews with 4 teachers with K-12 and High School teaching experiences. Additional research also included studying user feedback to identify pain points and domain expertise research for potential product opportunities and innovation.
 
-```bash
-bundle install
-```
+<table class="table">
 
-### GitHub Pages Compatible Method
+<thead>
 
-Fork the [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes/fork), then rename the repo to **USERNAME.github.io** --- replacing **USERNAME** with your GitHub username.
+<tr>
 
-<figure>
-  <img src="{{ '/assets/images/mm-theme-fork-repo.png' | absolute_url }}" alt="fork Minimal Mistakes">
-</figure>
+<th></th>
 
-**Note:** Your Jekyll site should be viewable immediately at <http://USERNAME.github.io>. If it's not, you can force a rebuild by **Customizing Your Site** (see below for more details).
-{: .notice--warning}
+<th>Teacher F</th>
 
-If you're hosting several Jekyll based sites under the same GitHub username you will have to use Project Pages instead of User Pages. Essentially you rename the repo to something other than **USERNAME.github.io** and create a `gh-pages` branch off of `master`. For more details on how to set things up check [GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
+<th>Teacher Y</th>
 
-<figure>
-  <img src="{{ '/assets/images/mm-gh-pages.gif' | absolute_url }}" alt="creating a new branch on GitHub">
-</figure>
+<th>Teacher W</th>
 
-Replace the contents of `Gemfile` found in the root of your Jekyll site with the following:
+<th>Teacher J</th>
 
-```ruby
-source "https://rubygems.org"
+</tr>
 
-gem "github-pages", group: :jekyll_plugins
+</thead>
 
-group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
-  gem "jekyll-feed"
-  gem "jemoji"
-end
-```
+<tbody>
 
-Then run `bundle update` and verify that all gems install properly.
+<tr>
 
-### Remove the Unnecessary
+<td>Years of experience</td>
 
-If you forked or downloaded the `minimal-mistakes-jekyll` repo you can safely remove the following folders and files:
+<td>11</td>
 
-- `.editorconfig`
-- `.gitattributes`
-- `.github`
-- `/docs`
-- `/test`
-- `CHANGELOG.md`
-- `minimal-mistakes-jekyll.gemspec`
-- `README.md`
-- `screenshot-layouts.png`
-- `screenshot.png`
+<td>13</td>
 
-## Setup Your Site
+<td>13</td>
 
-Depending on the path you took installing Minimal Mistakes you'll setup things a little differently.
+<td>6</td>
 
-### Starting Fresh
+</tr>
 
-Starting with an empty folder and `Gemfile` you'll need to copy or re-create this [default `_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) file. For a full explanation of every setting be sure to read the [**Configuration**]({{ "/docs/configuration/" | absolute_url }}) section.
+<tr>
 
-After taking care of Jekyll's configuration file, you'll need to create and edit the following data files.
+<td>Grades Taught</td>
 
-- [`_data/ui-text.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml) - UI text [documentation]({{ "/docs/ui-text/" | absolute_url }})
-- [`_data/navigation.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_data/navigation.yml) - navigation [documentation]({{ "/docs/navigation/" | absolute_url }})
+<td>4 to 6</td>
 
-### Starting from `jekyll new`
+<td>6, 7</td>
 
-Scaffolding out a site with the `jekyll new` command requires you to modify a few files that it creates.
+<td>2 to 5</td>
 
-Edit `_config.yml` and create `_data/ui-text.yml` and `_data/navigation.yml` same as above. Then:
+<td>High School</td>
 
-- Replace `<site root>/index.md` with a modified [Minimal Mistakes `index.html`](https://github.com/mmistakes/minimal-mistakes/blob/master/index.html). Be sure to enable pagination if using the [`home` layout]({{ "/docs/layouts/#home-page" | absolute_url }}) by adding the necessary lines to **_config.yml**.
-- Change `layout: post` in `_posts/0000-00-00-welcome-to-jekyll.markdown` to `layout: single`.
-- Remove `about.md`, or at the very least change `layout: page` to `layout: single` and remove references to `icon-github.html` (or [copy to your `_includes`](https://github.com/jekyll/minima/tree/master/_includes) if using it).
+</tr>
 
-### Migrating to Gem Version
+</tbody>
 
-If you're migrating a site already using Minimal Mistakes and haven't customized any of the theme files things upgrading will be easier for you.
+</table>
 
-Start by removing `_includes`, `_layouts`, `_sass`, `assets` folders and all files within. You won't need these anymore as they're bundled with the theme gem.
+**Teacher F**
 
-If you customized any of these files leave them alone, and only remove the untouched ones. If done correctly your modified versions should [override](http://jekyllrb.com/docs/themes/#overriding-theme-defaults) the versions bundled with the theme and be used by Jekyll instead.
+*   Coaches teachers on classroom management and English Language Speakers program
+*   Expertise in 1-1 literacy guidance
+*   Used IXL LA for 1 year after parent donated license to class.
 
-#### Update Gemfile
+**Teacher Y**
 
-Replace `gem "github-pages` or `gem "jekyll"` with `gem "jekyll", "~> 3.3.0"`. You'll need the latest version of Jekyll[^update-jekyll] for Minimal Mistakes to work and load all of the theme's assets properly, this line forces Bundler to do that.
+*   In charge of 6th grade LA curriculum design
+*   Emphasis of 21st Century Learning Framework and Multi Engagement
+*   Sit on the Common Core alignment committee
+*   Hosted California Secretary of Education to demonstrate effective classroom use of technology like Apple TV, Google Docs, Expedition
 
-[^update-jekyll]: You could also run `bundle update jekyll` to update Jekyll.
+**Teacher W**
 
-Add the Minimal Mistakes theme gem:
+*   Have experience implementing Renaissance reading program softwareto help students improve reading habits and scores.
+*   Taught in low-income communities
+*   In charge of Language Arts and Social Studies lesson plan and pacing guide
+*   School did not have resources to provide technology
 
-```ruby
-gem "minimal-mistakes-jekyll"
-```
+#### Aims of interviews
 
-When finished your `Gemfile` should look something like this:
+Through face-to-face interviews, I was able to hear first-hand recounting of narratives and was able to observe emotions of the interviewees. It helped me to develop a better understanding of what teachers really feel deeply about and how their day-to-day experiences have shaped their perspectives on how students are engaged in learning and the challenges they face in classrooms.
 
-```ruby
-source "https://rubygems.org"
+#### Some Key Learning Points
 
-gem "jekyll", "~> 3.3.0"
-gem "minimal-mistakes-jekyll"
-```
+One of key learning points was recognizing the deeply social environment that IXL or any educational technology product (google expeditions, renaissance program etc.) is embedded in. There are social behavioral traits such as social proof, social recognition and competitiveness exhibited amongst the students where they enjoy challenges and competing with one another.
 
-Then run `bundle update` and add `theme: minimal-mistakes-jekyll` to your `_config.yml`.
+In addition, teachers also have a deep desire for autonomy in deciding the best means to help their students. This desire is rooted in the belief that their professional training and close relationships with the students cannot be replaced by any technology solution. This means that any technology solution needs to have a teacher-first focus.
 
-**v4 Breaking Change:** Paths for image headers, overlays, teasers, [galleries]({{ "/docs/helpers/#gallery" | absolute_url }}), and [feature rows]({{ "/docs/helpers/#feature-row" | absolute_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you'll need to use the full path eg: `image: /assets/images/filename.jpg`. The preferred location is now `/assets/images/` but can be placed elsewhere or external hosted. This all applies for image references in `_config.yml` and `author.yml` as well.
-{: .notice--danger}
+Moreover, different teachers have different teaching styles and aptitude to implement technology solutions. Teaching tools like IXL should have features that are modularized and be flexible enough to fit into different teaching scenarios.
 
----
+Even without quantitative data, it is even more so crucial that the design process relies on reliable qualitative data. At the initial phase of prioritizing product ideas to work on, we can use the data points to help prioritize product ideas to work on and crearte user stories and personas with the data collected during the research phase.
 
-That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site.
+For conciseness, I have condensed six main insights that I have derived from my preliminary research phase in Appendix A.
+
+#### Design Method
+
+I used grayscale design for wire-framing and prototyping as I'm less concerned about the visual aesthetics but instead, am focused on the overall layout and product functionalities. Without needing to worry about pixel perfection, I am able to make strategic product decisions concerning UI and user flow.
+
+Grayscale design also has the benefit of visual hierarchy by virtues of contrast over a basic wireframe that only uses lines. As I'm proficient in Sketch, I am able to mock-up the wireframe as quick if not quicker than drawing on pen and paper, with a consistency and tidy-ness that I'd personally prefer. It helps me to communicate my product ideas to engineers and other product managers without being too abstract or missing details in my design elements.
+
+However, I strongly believe that the prototyping process and the kind of design style used should be up to the designers as long as it helps them to communicate product ideas effectively.
+
+## Prompt One: How would I describe IXL to a teacher?
+
+IXL is an immersive online learning platform that provides standards-aligned practices for Math, Language arts, Science and Social Studies, covering more than 6000 skills for K-12 students.
+
+Through highly interactive content and an adaptive learning system, students are not only engaged in practicing but also develop concepts and skills mastery that prepares them for school, standards assessment and eventually lifelong learning.
+
+IXL can be adapted to your teaching style be it flipped classroom to 1:1 and with the analytics tools, you can personalize instruction and feedback to help every student to excel by pinpointing their weaknesses and monitoring their progress.
+
+#### Identifying value propositions of the product:
+
+<table class="table table-condensed">
+
+<thead>
+
+<tr>
+
+<th>Helping Students to Learn</th>
+
+<th>Helping Teachers to Teach</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>
+
+<ul>
+<li>Standards-aligned practices</li>
+<li>Subjects include Math, Language Arts, Science & Social Studies</li>
+<li>Practice more than 6000 skills</li>
+<li>
+  <ul>Interactive Content
+      <li>Visual Graphics</li>
+      <li>Virtual Rewards System</li>
+      <li>Adaptive Difficulty</li>
+      <li>Immediate Feedback</li>
+  </ul>
+</li>
+<li>Geared towards skilled mastered and real understanding of concepts at hand</li>
+<li>Preparation for school, standards assessments and lifelong learning</li>
+</ul>
+
+</td>
+
+<td>
+
+<ul>
+<li>Suits any teaching style and classroom environments</li>
+<li>Identify student needs through analytics</li>
+<li>Adapt your teaching with actionable insights and information about every student's learning needs</li>
+<li>Use it to teach skills aligned to school and district standards</li>
+<li>View your students' practice in real-time</li>
+</ul>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+## Prompt Two: New Product Recommendations
+
+### Summary
+
+I will be focusing on the product experience of the students, particularly, on enhancing the immersive learning experience while practicing. My recommendations are:
+
+1.  Include social proof and healthy competition features to make practicing more fun and social.
+2.  A new GUI to heighten sense of progression and motivation to continue practicing
+3.  Consider using streak or token scoring for challenge zones.
+4.  Allow students to download assignments for offline access on mobile and tablet.
+
+### Why did I choose to focus on this?
+
+As an online learning tool, our primary user are students and creating an immersive learning experience that consistently keeps students engaged is foremost for both business and product goals.
+
+### 1. Include social proof and healthy competition features

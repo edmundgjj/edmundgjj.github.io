@@ -12,12 +12,25 @@ main:
   #   url: /sitemap/
 
 portfolio:
-  - title: My Projects
+  - title: Work
     children:
       - title: "IXL Product Design"
-        url: /portfolio/ixl-learning-design/
+        url: /ixl
       - title: "Travez Product Design"
-        url: /portfolio/travez/
+        url: /travez
+      - title: "Verlocal Product Design & Marketing"
+        url: /verlocal
+
+  - title: About Me
+    children:
+        - title: "Download CV"
+          url: https://drive.google.com/open?id=0BzlTeV_7Y9K2S2h2VHJocTdYRGc
+        - title: "Aspiri: our 2-person marketing and design outfit"
+          url: mailto:edmund@aspiri.co?Subject=Let's%20work%20together
+
+  - title: Blog
+    url: /blog
+
 
 
 foo:
