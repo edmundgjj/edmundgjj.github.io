@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Edmund's Portfolio"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Edmund Goh"
+description              : "My world of design, product and business"
+url                      : https://edmundgjj.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -77,10 +77,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Edmund Goh"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Learning by doing all the time. Even this Jekyll website is after hours of learning by doing."
+  location         : "San Francisco"
   email            :
   uri              :
   bitbucket        :
@@ -111,6 +111,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _portfolio
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -244,3 +245,9 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Collections for Portfolio
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
