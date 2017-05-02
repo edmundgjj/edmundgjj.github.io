@@ -9,6 +9,8 @@ sidebar:
   nav: "portfolio"
 ---
 
+{% include toc %}
+
 I had the privilege of writing across a vast range of experiences and settings.
 
 In the process, I found that writing is just one part of the equation. Rather, I also found myself needing to:
@@ -39,9 +41,7 @@ For your reference, I would like to point you to these writing samples that requ
 
 <hr size="20">
 
-# A comprehensive list of writing samples
-
-# <a name="research"> Research & Policy Position Papers </a>
+## Research & Policy Position Papers
 
 
 * [Legalisation of Same Sex Marriage: The Role of Societal Attitudes and its Corresponding Factors](/research)
@@ -49,7 +49,7 @@ For your reference, I would like to point you to these writing samples that requ
 
 <hr size="20">
 
-# <a name="pr">Content Marketing & PR</a>
+## Content Marketing & PR
 
 **PR and Social Media for Dr. Lily Neo, Member of Parliament of Singapore**
 
@@ -69,7 +69,7 @@ Community Event & Program Announcements
 
 <hr size="20">
 
-# <a name="productmarketing">Product Marketing & UI text</a>
+## Product Marketing & UI text
 
 **Verlocal PRO**
 
@@ -92,7 +92,7 @@ Most of my technical writing was also for internal training technical documentat
 
 <hr size="20">
 
-# <a name="productdesign">Curriculum Design & Training Plan</a>
+## Curriculum Design & Training Plan
 
 **Case Study**
 * [IXL Product Design Project](/ixl)
@@ -103,7 +103,7 @@ Most of my technical writing was also for internal training technical documentat
 
 <hr size="20">
 
-# <a name="productdesign">Design Documentation</a>
+## Design Documentation
 
 **Case Study**
 * [IXL Product Design Project](/ixl)
@@ -114,9 +114,7 @@ Most of my technical writing was also for internal training technical documentat
 
 <hr size="20">
 
-# <a name="biz">Business & Strategy Documents</a>
-
-======
+## Business & Strategy Documents
 
 * [Job Description for Magic Bus Executive Director (Singapore)](/jd)
 * [International Charity Organisation Status Application](/biz)
