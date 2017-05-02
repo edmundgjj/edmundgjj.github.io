@@ -30,7 +30,7 @@ Documentation Tools that I have experience with:
 * Lucidcharts, Xmind
 
 For your reference, I would like to point you to these writing samples that required relatively similar aptitudes and disciplines to technical writing:
-* [Curriculum Design](/Curriculum) to provide training frameworks and instructions for trainers
+* [Curriculum Design](/curriculum) to provide training frameworks and instructions for trainers
 * [Press Release](/pr) to communicate key messages
 * [Research Paper](/research) to present research findings and methodology
 * [Position Paper](/position) where you have to pull together resources in a short amount of time and communicate your stance to audiences who have no domain expertise
