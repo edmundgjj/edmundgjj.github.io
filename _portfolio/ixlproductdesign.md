@@ -12,9 +12,13 @@ sidebar:
 
 {% include toc %}
 
+Disclaimer: This is a work in progress
+
 ## Introduction
 
 ### About IXL Learning
+
+
 
 IXL is an immersive online learning platform that provides standards-aligned practices for Math, Language arts, Science and Social Studies, covering more than 6000 skills for K-12 students.Through highly interactive content and an adaptive learning system, students are not only engaged in practicing but also develop concepts and skills mastery that prepares them for school, standards assessment and eventually lifelong learning.
 

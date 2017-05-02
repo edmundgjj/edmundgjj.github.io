@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "My Professional Writing Samples"
+title: "My Professional Writing Experiences"
 permalink: /Copywriting
 excerpt: "Here are my professional writing samples."
 last_modified_at: 2016-11-03T10:01:43-04:00
@@ -9,18 +9,40 @@ sidebar:
   nav: "portfolio"
 ---
 
-I benefit from a wide range of professional writing experiences - from writing academic papers, curriculum design and framework documentation, developing capacity building training toolkits, writing business plans to copywriting for product and content marketing.
+I had the privilege of writing across a vast range of experiences and settings.
 
-A lot of these writing experiences involves a process more than simply writing. Rather, I have to:
+In the process, I found that writing is just one part of the equation. Rather, I also found myself needing to:
 * Conduct interview and gather data from subject matter expert
-* Research domain knowledge and 'demystify' expert knowledge
-* Drafting and editing so that content is user-friendly
-* Representing concepts and processes with visual diagrams
-* Adopt a minimalistic and simple writing style to make content easily
+* Research domain knowledge and find ways to explain expert knowledge to non-technical audiences
+* Create a process to organize knowledge and documentation to make it easier to access
+* Explore documentation tools to improve the process of collaborative writing
+* Draft and edit multiple times so that the content is clear and concise
+* Represent concepts and processes with visual diagrams
+
+Documentation Tools that I have experience with:
+* Jekyll + Github (XML)
+* Gitbook (XML)
+* Quip
+* Google Suite
+* Microsoft OneNote, Word
+* Intercom for Customer Knowledge Base
+* Adobe Creative Cloud & Sketch
+* Lucidcharts, Xmind
+
+For your reference, I would like to point you to these writing samples that required relatively similar aptitudes and disciplines to technical writing:
+* [Curriculum Design](/Curriculum) to provide training frameworks and instructions for trainers
+* [Press Release](/pr) to communicate key messages
+* [Research Paper](/research) to present research findings and methodology
+* [Position Paper](/position) where you have to pull together resources in a short amount of time and communicate your stance to audiences who have no domain expertise
+* [Landing Page Copywriting](https://www.verlocal.com/business) to highlight key value proposition of your product to grab attention and be attentive to styling for maximum visual persuasion
+* [Step-by-step Instruction](http://stories.verlocal.com/2017/01/23/adding-verlocal-calendar-facebook-business-page/) to guide users through a series of tasks to deploy a product feature
 
 <hr size="20">
 
+# A comprehensive list of writing samples
+
 # <a name="research"> Research & Policy Position Papers </a>
+
 
 * [Legalisation of Same Sex Marriage: The Role of Societal Attitudes and its Corresponding Factors](/research)
 * [Position Paper in support of Trade Adjust Policies for Apparel Industry in North Carolina](/policy)
@@ -60,9 +82,13 @@ Verlocal PRO differentiates itself from other booking tools by providing a fuss-
 
 * [App Store Description & Version Updates](https://itunes.apple.com/us/app/verlocal/id1074593403?mt=8)
 
-**Verlocal UI Text**
+**Verlocal UI Tex & Internal Training Documentation**
 
 I was in charge of developing all transactional emails content and UI copywriting to provide direct and simple instructions for customers and vendors.
+
+* [How to add your Verlocal Calendar on your Facebook Page ](http://stories.verlocal.com/2017/01/23/adding-verlocal-calendar-facebook-business-page/)
+
+Most of my technical writing was also for internal training technical documentation. I am unable to share exact examples due to sensitive nature of the information. Examples include teaching non-technical team members how to operate command terminal, accessing our internal SQL database, running Javascript to send email campaigns and editing HTML and CSS for our emailers.
 
 <hr size="20">
 
@@ -90,9 +116,9 @@ I was in charge of developing all transactional emails content and UI copywritin
 
 # <a name="biz">Business & Strategy Documents</a>
 
+======
+
 * [Job Description for Magic Bus Executive Director (Singapore)](/jd)
-* [International Charity Organisation Status Application](/ico)
-* [Changemakers Program Framework](/changemakers)
-* [Forging Youth Initiative Proposal](/fyi)
-* [HipChat Marketing Consulting Project](/HipChat)
+* [International Charity Organisation Status Application](/biz)
+* [Changemakers Program Framework](/biz)
 * [CatchPlus Volunteer Recruitment Landing Page](http://catchplusmagicbus.wixsite.com/singapore)

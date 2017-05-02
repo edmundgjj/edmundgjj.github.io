@@ -123,6 +123,7 @@
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -158,6 +159,7 @@
 
     .page__title {
       font-size: $type-size-2;
+      text-align: center;
 
       @include breakpoint($small) {
         font-size: $type-size-1;

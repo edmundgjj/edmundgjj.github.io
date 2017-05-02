@@ -8,7 +8,7 @@ author_profile: true
 sidebar:
   nav: "portfolio"
 ---
-Here is an example of a job description I created to help recruit an executive director for Magic Bus Singapore.
+This is a job description I created to help recruit an executive director for Magic Bus Singapore.
 
 <iframe src="https://drive.google.com/file/d/0BzlTeV_7Y9K2QUh4UnNFNUVlZ28/preview" width="640" height="480"></iframe>
 

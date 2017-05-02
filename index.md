@@ -1,5 +1,5 @@
 ---
-title: "The world is my classroom"
+title: "Learning everywhere"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -8,16 +8,29 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/header.jpg
   caption: "My visit to Ashoka School in Pune, India (2013)"
-excerpt: "where product design, marketing and business intersect."
 intro:
+  - title: "Solving problems across product, marketing and business silos"
   - excerpt: "Get access to in-depth case studies and examples of my work in product design, marketing and business strategy. This website is also a way for me to document and reflect on my learning journey to becoming a product manager."
 feature_row:
+  - image_path: assets/images/writingthumbnail.png
+    alt: "Professional Writing Experiences"
+    title: "My Professional Writing Experiences"
+    excerpt: "From product UI to curriculum design, here is a comprehensive list of my professional writing samples."
+    url: "/Copywriting"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
   - image_path: assets/images/ixlthumbnail.png
     alt: "IXL Product Design"
     title: "IXL Product Design"
     excerpt: "UX research and product design to enhance online learning experience of students and create the new homework assignment feature"
     url: "/ixl"
     btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/verlocalthumbnail.png
+    title: "Verlocal Product Marketing"
+    excerpt: "An overview of marketing strategies I tried, reflecting on their successes and failures."
+    url: "/HoP"
+    btn_label: "Coming Soon"
     btn_class: "btn--inverse"
   - image_path: /assets/images/travezthumbnail.png
     alt: "Travez Product Design"
@@ -26,17 +39,15 @@ feature_row:
     url: "/travez"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/verlocalthumbnail.png
-    title: "Verlocal Product Marketing"
-    excerpt: "From launching campaigns to helping bring Verlocal PRO to market, here are what I tried that I thought worked and didn't"
-    url: "/verlocal"
-    btn_label: "Coming Soon"
+  - image_path: /assets/images/hopthumbnail.png
+    title: "Humans of Pangea"
+    excerpt: "Borne out of a business challenge to solve non-profit problems, HoP provides a new way for organisations and causes to recruit and manage volunteer resources."
+    url: "/hop"
+    btn_label: "Read More"
     btn_class: "btn--inverse"
 
 ---
 
 {% include feature_row id="intro" type="center" %}
-
-# Product Design
 
 {% include feature_row %}

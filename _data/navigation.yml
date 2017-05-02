@@ -12,16 +12,18 @@ main:
   #   url: /sitemap/
 
 portfolio:
-  - title: Product Design
+  - title: Web & Product Design
     children:
       - title: "IXL"
         url: /ixl
       - title: "Travez"
         url: /travez
-      - title: "Verlocal"
+      - title: "Verlocal (Work in progress)"
         url: /verlocal
+      - title: "Humans of Pangea"
+        url: /hop
 
-  - title: Copywriting
+  - title: Professional Writing
     url: /Copywriting
     children:
       - title: "Research & Policy Position Paper"
@@ -33,7 +35,7 @@ portfolio:
       - title: "Business & Strategy Document"
       - url: https://edmundgjj.github.io/Copywriting#biz
       - title: "Curriculum & Training Plans"
-      - url: https://edmundgjj.github.io/Copywriting#curriculum
+      - url: /Curriculum
       - title: "Pitch Decks"
       - url: https://edmundgjj.github.io/Copywriting#pitch
 
@@ -41,11 +43,6 @@ portfolio:
     children:
         - title: "Download CV"
           url: https://drive.google.com/open?id=0BzlTeV_7Y9K2S2h2VHJocTdYRGc
-
-  - title: "Contact Aspiri Design now"
-    children:
-        - title: "For Small Businesses"
-          url: https://aspiri.co
 
   - title: Blog
     url: /blog
