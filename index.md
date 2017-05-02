@@ -62,7 +62,11 @@ gallery:
 
 {% include feature_row %}
 
-# <center>[View my CV](https://drive.google.com/open?id=0BzlTeV_7Y9K2S2h2VHJocTdYRGc)</center>
+# <center><a href="https://drive.google.com/open?id=0BzlTeV_7Y9K2S2h2VHJocTdYRGc">Click here to view my CV</a></center>
+
+<br>
+
+<hr>
 
 # <center>We just launched Aspiri</center>
 
