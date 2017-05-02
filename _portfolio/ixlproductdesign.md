@@ -10,9 +10,11 @@ sidebar:
 ---
 
 
-{% include toc %}
+Disclaimer: I am in the process of importing content from a word document into this post itself. The process is taking longer than I hope. In the meanwhile, you can download the PDF version here:
 
-Disclaimer: This is a work in progress
+<iframe src="https://drive.google.com/file/d/0BzlTeV_7Y9K2Q2tTSGhxMTBIQlE/preview" width="640" height="480"></iframe>
+
+<hr>
 
 ## Introduction
 

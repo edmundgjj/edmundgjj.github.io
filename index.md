@@ -46,8 +46,28 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
+gallery:
+      - url: /assets/images/avrcthumbnail.png
+        image_path: /assets/images/avrcthumbnail.png
+        alt: "placeholder image 1"
+        title: "AVRC"
+      - url: /assets/images/whitmerthumbnail.png
+        image_path: /assets/images/whitmerthumbnail.png
+        alt: "placeholder image 2"
+        title: "Whitmer & Associates Inc."
+
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+
+# <center>I just launched Aspiri</center>
+
+Aspiri is a two-person digital design and marketing outfit I started with my startup partner-in-crime, Tim.
+
+<p>Each month, we work with four small and local businesses to bring the Silicon Valley flair into their digital and marketing presence.</p>
+
+Here are our existing clients:
+
+{% include gallery %}
