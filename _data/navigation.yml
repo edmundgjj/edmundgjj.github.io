@@ -12,21 +12,30 @@ main:
   #   url: /sitemap/
 
 portfolio:
-  - title: Work
+  - title: Product Design
     children:
-      - title: "IXL Product Design"
+      - title: "IXL"
         url: /ixl
-      - title: "Travez Product Design"
+      - title: "Travez"
         url: /travez
-      - title: "Verlocal Product Design & Marketing"
+      - title: "Verlocal"
         url: /verlocal
+
+  - title: Copywriting
+    url: /Copywriting
+    children:
+      - title: "Product Marketing & UI"
+      - url: https://edmundgjj.github.io/copywriting#productmarketing
 
   - title: About Me
     children:
         - title: "Download CV"
           url: https://drive.google.com/open?id=0BzlTeV_7Y9K2S2h2VHJocTdYRGc
-        - title: "Aspiri: our 2-person marketing and design outfit"
-          url: mailto:edmund@aspiri.co?Subject=Let's%20work%20together
+
+  - title: "Contact Aspiri Design now"
+    children:
+        - title: "For Small Businesses"
+          url: https://aspiri.co
 
   - title: Blog
     url: /blog

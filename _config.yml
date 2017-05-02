@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "Edmund Goh"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Learning by doing all the time. Even this Jekyll website is after hours of learning by doing."
+  bio              : "It’s not about ideas. It’s about making ideas happen."
   location         : "San Francisco"
   email            : edmund@aspiri.co
   uri              :
@@ -112,6 +112,7 @@ include:
   - .htaccess
   - _pages
   - _portfolio
+  - _copywriting
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
