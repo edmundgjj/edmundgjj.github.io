@@ -24,8 +24,18 @@ portfolio:
   - title: Copywriting
     url: /Copywriting
     children:
+      - title: "Research & Policy Position Paper"
+      - url: https://edmundgjj.github.io/Copywriting#research
+      - title: "Content Marketing & PR"
+      - url: https://edmundgjj.github.io/Copywriting#pr
       - title: "Product Marketing & UI"
-      - url: https://edmundgjj.github.io/copywriting#productmarketing
+      - url: https://edmundgjj.github.io/Copywriting#productmarketing
+      - title: "Business & Strategy Document"
+      - url: https://edmundgjj.github.io/Copywriting#biz
+      - title: "Curriculum & Training Plans"
+      - url: https://edmundgjj.github.io/Copywriting#curriculum
+      - title: "Pitch Decks"
+      - url: https://edmundgjj.github.io/Copywriting#pitch
 
   - title: About Me
     children:

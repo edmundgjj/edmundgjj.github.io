@@ -7,33 +7,34 @@ last_modified_at: 2016-11-03T10:01:43-04:00
 author_profile: true
 sidebar:
   nav: "portfolio"
-feature_row:
-    - image_path: /assets/images/mm-customizable-feature.png
-      alt: "customizable"
-      title: "Super Customizable"
-      excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-      url: "/docs/configuration/"
-      btn_label: "Learn More"
-    - image_path: /assets/images/mm-responsive-feature.png
-      alt: "fully responsive"
-      title: "Responsive Layouts"
-      excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-      url: "/docs/layouts/"
-      btn_label: "Learn More"
-    - image_path: /assets/images/mm-free-feature.png
-      alt: "100% free"
-      title: "100% Free"
-      excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
-      url: "/docs/license/"
-      btn_label: "Learn More"
+gallery:
+  - url: /assets/images/FB1.png
+    image_path: /assets/images/FB1.png
+    alt: "placeholder image 1"
+    title: "Facebook Post Editing"
+  - url: /assets/images/FB2.png
+    image_path: /assets/images/FB2.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: /assets/images/FB3.png
+    image_path: /assets/images/FB3.png
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
 ---
-
-{% include toc %}
 
 ## Facebook Page
 
 Created the content and copywriting for Facebook posts during the successful re-election campaign of 2016
 
-{% include feature_row %}
+#### Click on the images below to expand.
 
-## Press Release for Policy Announcement
+{% include gallery caption="Here are some examples of Facebook posts I edited. The aim is to cultivating a tone that is sincere and authentic and a style that is simple and plain-spoken" %}
+
+## Press Releases
+
+Press Release Article for Grand Opening of CatchPlus Center
+
+<iframe src="https://docs.google.com/document/d/1hwtkBJ6TfYCTGG6ZJTMWDnaoQn05NHgZ4xyRmZ_DjN4/pub?embedded=true" width="800" height="500"></iframe>
+
+Assisted in developing talking points and press release brief that led to national media publishing:
+[Straits Times Newspaper Article - Kukoh Kids reach for the starts](http://www.straitstimes.com/opinion/kukoh-kids-reach-for-the-stars)
