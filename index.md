@@ -47,7 +47,7 @@ feature_row:
     btn_class: "btn--inverse"
 
 gallery:
-      - url: /assets/images/avrcthumbnail.png
+      - url: http://avresources.co/
         image_path: /assets/images/avrcthumbnail.png
         alt: "placeholder image 1"
         title: "AVRC"
@@ -62,11 +62,13 @@ gallery:
 
 {% include feature_row %}
 
-# <center>I just launched Aspiri</center>
+# <center>[View my CV](https://drive.google.com/open?id=0BzlTeV_7Y9K2S2h2VHJocTdYRGc)</center>
 
-Aspiri is a two-person digital design and marketing outfit I started with my startup partner-in-crime, Tim.
+# <center>We just launched Aspiri</center>
 
-<p>Each month, we work with four small and local businesses to bring the Silicon Valley flair into their digital and marketing presence.</p>
+Aspiri is a two-person digital design and marketing outfit I started with my startup partner-in-crime, Tim Chang.
+
+<p>Each month, we work with four local businesses to bring the Silicon Valley flair into their digital and marketing presence.</p>
 
 Here are our existing clients:
 

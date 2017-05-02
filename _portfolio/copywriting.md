@@ -13,7 +13,7 @@ sidebar:
 
 I had the privilege of writing across a vast range of experiences and settings.
 
-In the process, I found that writing is just one part of the equation. Rather, I also found myself needing to:
+In the process, I found that writing is just one part of the equation. To create content, you need to:
 * Conduct interview and gather data from subject matter expert
 * Research domain knowledge and find ways to explain expert knowledge to non-technical audiences
 * Create a process to organize knowledge and documentation to make it easier to access
@@ -31,7 +31,7 @@ Documentation Tools that I have experience with:
 * Adobe Creative Cloud & Sketch
 * Lucidcharts, Xmind
 
-For your reference, I would like to point you to these writing samples that required relatively similar aptitudes and disciplines to technical writing:
+I would like to point you to these writing samples that required relatively similar aptitudes and disciplines to technical writing:
 * [Curriculum Design](/curriculum) to provide training frameworks and instructions for trainers
 * [Press Release](/pr) to communicate key messages
 * [Research Paper](/research) to present research findings and methodology
