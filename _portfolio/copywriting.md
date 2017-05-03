@@ -95,11 +95,7 @@ Most of my technical writing was also for internal training technical documentat
 ## Curriculum Design & Training Plan
 
 **Case Study**
-* [IXL Product Design Project](/ixl)
-
-**Pitch Decks**
-* [Humans of Pangea, Semifinalist for Global Social Venture Challenge](/hop)
-* [Travez, Raised $30k for MVP](/travez)
+* [Magic Bus Social Emotional Learning Curriculum and Training Plan](/curriculum)
 
 <hr size="20">
 
@@ -108,7 +104,7 @@ Most of my technical writing was also for internal training technical documentat
 **Case Study**
 * [IXL Product Design Project](/ixl)
 
-**Pitch Decks**
+**Pitch Decks for Business Model Design**
 * [Humans of Pangea, Semifinalist for Global Social Venture Challenge](/hop)
 * [Travez, Raised $30k for MVP](/travez)
 
