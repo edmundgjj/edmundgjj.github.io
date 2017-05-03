@@ -31,7 +31,7 @@ Documentation Tools that I have experience with:
 * Adobe Creative Cloud & Sketch
 * Lucidcharts, Xmind
 
-These writing samples required relatively similar aptitudes and disciplines to technical writing. I suggest you begin here:
+These writing samples required relatively similar aptitudes and disciplines to technical writing. Here are some works that you can begin to learn more about my writing experience:
 * [Curriculum Design](/curriculum) to provide training frameworks and instructions for trainers
 * [Press Release](/pr) to communicate key messages
 * [Research Paper](/research) to present research findings and methodology
