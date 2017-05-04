@@ -82,7 +82,7 @@ Verlocal PRO differentiates itself from other booking tools by providing a fuss-
 
 * [App Store Description & Version Updates](https://itunes.apple.com/us/app/verlocal/id1074593403?mt=8)
 
-**Verlocal UI Tex & Internal Training Documentation**
+**Verlocal UI Text & Internal Training Documentation**
 
 I was in charge of developing all transactional emails content and UI copywriting to provide direct and simple instructions for customers and vendors.
 
