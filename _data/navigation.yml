@@ -12,13 +12,13 @@ main:
   #   url: /sitemap/
 
 portfolio:
-  - title: Web & Product Design
+  - title: Product Design
     children:
       - title: "IXL"
         url: /ixl
       - title: "Travez"
         url: /travez
-      - title: "Verlocal (Work in progress)"
+      - title: "Verlocal"
         url: /verlocal
       - title: "Humans of Pangea"
         url: /hop

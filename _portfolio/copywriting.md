@@ -5,6 +5,9 @@ permalink: /Copywriting
 excerpt: "Here are my professional writing samples."
 last_modified_at: 2016-11-03T10:01:43-04:00
 author_profile: true
+header:
+  image: /assets/images/writingthumbnail.png
+  teaser: /assets/images/writingthumbnail.png
 sidebar:
   nav: "portfolio"
 ---

@@ -5,6 +5,9 @@ permalink: /hop
 excerpt: "Startup Competition organized by UC Berkeley Sutardja Center for Entrepreneurship and Technology to harness technology to solve problems faced by non-profits."
 last_modified_at: 2017-04-03T10:01:43-04:00
 author_profile: true
+header:
+  image: /assets/images/hop2.jpg
+  teaser: /assets/images/hop2.jpg  
 sidebar:
   nav: "portfolio"
 ---

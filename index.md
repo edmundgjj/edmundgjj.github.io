@@ -9,14 +9,16 @@ header:
   overlay_image: /assets/images/header.jpg
   caption: "My visit to Ashoka School in Pune, India (2013)"
 intro:
-  - title: "Solving problems across product, marketing and business silos"
-  - excerpt: "Get access to in-depth case studies and examples of my work in product design, marketing and business strategy. This website is also a way for me to document and reflect on my learning journey to becoming a product manager."
+  - title: "I love to solve problems across design, business and engineering."
+  - excerpt: "With an academic background as a sociology researcher, I have an innate curiosity for human behavioural design and interactions. <br><br> After years of intensive learning by practice and working in three start-ups, I have self-taught myself design skills and front-end development. From UX research, user flow mapping, wireframing and product design, I am all-round designer.<br><br>
+  Product design intrigues me as it allows me to tap into a multi-faceted problem solving mindset and work with different teammates from various background.
+  I'm excited to explore any new product design opportunities."
 feature_row:
-  - image_path: assets/images/writingthumbnail.png
-    alt: "Professional Writing Experiences"
-    title: "My Professional Writing Experiences"
-    excerpt: "From product UI to curriculum design, here is a comprehensive list of my professional writing samples."
-    url: "/Copywriting"
+  - image_path: /assets/images/travezthumbnail.png
+    alt: "Travez Product Design"
+    title: "Creating Travez from scratch"
+    excerpt: "Raising $30k to build and design a revolutionary experience for how we discover and plan travel. "
+    url: "/travez"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: assets/images/ixlthumbnail.png
@@ -27,16 +29,9 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/verlocalthumbnail.png
-    title: "Verlocal Product Marketing"
-    excerpt: "An overview of marketing strategies I tried, reflecting on their successes and failures."
-    url: "/HoP"
-    btn_label: "Coming Soon"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/travezthumbnail.png
-    alt: "Travez Product Design"
-    title: "Creating Travez from scratch"
-    excerpt: "Raising $30k to build a team and design a revolutionary experience for how we discover and plan travel. "
-    url: "/travez"
+    title: "Verlocal Product Design"
+    excerpt: "Launching Verlocal PRO and designing a new booking and CRM tool for small businesses"
+    url: "/verlocal"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/hopthumbnail.png
@@ -45,15 +40,25 @@ feature_row:
     url: "/hop"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+  - image_path: assets/images/writingthumbnail.png
+    alt: "Professional Writing Experiences"
+    title: "My Professional Writing Experiences"
+    excerpt: "From product UI to curriculum design, here is a comprehensive list of my professional writing samples."
+    url: "/Copywriting"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+
+
+
 
 gallery:
       - url: http://avresources.co/
         image_path: /assets/images/avrcthumbnail.png
-        alt: "placeholder image 1"
+        alt: "AVResources"
         title: "AVRC"
-      - url: /assets/images/whitmerthumbnail.png
+      - url: https://edmundaspiri.github.io/whitmerandassociates/#
         image_path: /assets/images/whitmerthumbnail.png
-        alt: "placeholder image 2"
+        alt: "Whitmer & Associates Inc."
         title: "Whitmer & Associates Inc."
 
 ---
@@ -62,18 +67,20 @@ gallery:
 
 {% include feature_row %}
 
-# <center><a href="https://drive.google.com/open?id=0BzlTeV_7Y9K2S2h2VHJocTdYRGc">Click here to view my CV</a></center>
-
-<br>
+<center><a href="https://drive.google.com/open?id=0BzlTeV_7Y9K2S2h2VHJocTdYRGc" class="btn btn--x-large">Download my CV now</a></center>
 
 <hr>
 
 # <center>We just launched Aspiri</center>
 
+<div class="text-center">
 Aspiri is a two-person digital design and marketing outfit I started with my startup partner-in-crime, Tim Chang.
+<br>
+Each month, we work with four local businesses to build their digital and marketing presence.<br>
+Our aim is to champion good design and branding for small businesses.
+</div>
+<br>
 
-<p>Each month, we work with four local businesses to bring the Silicon Valley flair into their digital and marketing presence.</p>
-
-Here are our existing clients:
+<div class="text-center">Here are our existing clients:</div>
 
 {% include gallery %}

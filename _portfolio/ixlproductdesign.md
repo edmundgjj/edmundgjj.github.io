@@ -1,41 +1,35 @@
 ---
 layout: single
-title: "IXL Product Design Challenge"
+title: "IXL Product Design"
 permalink: /ixl
 excerpt: "Enhance student's online learning and practice experience and design a new homework assignment feature"
 last_modified_at: 2016-11-03T10:01:43-04:00
 author_profile: true
+header:
+  image: /assets/images/IXLteaser.png
+  teaser: /assets/images/IXLteaser.png
 sidebar:
   nav: "portfolio"
 ---
-
-
-Disclaimer: I am in the process of importing content from a word document into this post itself. The process is taking longer than I hope. In the meanwhile, you can download the PDF version here:
-
-<iframe src="https://drive.google.com/file/d/0BzlTeV_7Y9K2Q2tTSGhxMTBIQlE/preview" width="640" height="480"></iframe>
-
-<hr>
+<!--![IXL Learning Product Design](assets/images/IXL-header.png)-->
 
 ## Introduction
 
 ### About IXL Learning
 
-
-
 IXL is an immersive online learning platform that provides standards-aligned practices for Math, Language arts, Science and Social Studies, covering more than 6000 skills for K-12 students.Through highly interactive content and an adaptive learning system, students are not only engaged in practicing but also develop concepts and skills mastery that prepares them for school, standards assessment and eventually lifelong learning.
+
+{% include figure image_path="assets/images/IXL-Header-Surface.png" alt="Practice Question of IXL" caption="This is an example of a practice question on IXL." %}
 
 ### What did I do for the project?
 
-*   Wrote a short paragraph to describe IXL to teachers
-*   Conducted user research through in-depth interviews with K-12 teachers for product design
-*   Made four product enhancement recommendations that included:
+*   Conducted user research through in-depth interviews with K-12 teachers for product design.
+*   Evaluated and made product enhancement recommendations to help improve user experience. I decided to focus on the student learning experience.
     1.  Include behavioral design elements like social proof and healthy competition to enhance the user engagement
     2.  Enhancing UI for learning progression while students practice their questions to improve motivation
     3.  Proposed alternative scoring methods for Challenge Zone to current points-based UI to create a more satisfying experience
     4.  Offline access to practices for students on mobile and tablet applications.
-*   Design the homework assignment feature for students and teachers
-
-This project took me a total of 4 days from research, designing the features, making the prototypes to finally, documenting and writing the proposal.
+*   Designed from scratch the homework assignment feature for students and teachers
 
 ### Tools that I used for this project
 
@@ -45,6 +39,8 @@ This project took me a total of 4 days from research, designing the features, ma
 *   Deployed Jekyll for online documentation of design process
 
 ## My Research and Design Process
+
+### Creating empathy and finding inspiration
 
 To formulate product recommendations that really meet user needs, I conducted in-depth one-on-one interviews with 4 teachers with K-12 and High School teaching experiences. Additional research also included studying user feedback to identify pain points and domain expertise research for potential product opportunities and innovation.
 
@@ -146,7 +142,7 @@ Grayscale design also has the benefit of visual hierarchy by virtues of contrast
 
 However, I strongly believe that the prototyping process and the kind of design style used should be up to the designers as long as it helps them to communicate product ideas effectively.
 
-## Prompt One: How would I describe IXL to a teacher?
+<!-- ## Prompt One: How would I describe IXL to a teacher?
 
 IXL is an immersive online learning platform that provides standards-aligned practices for Math, Language arts, Science and Social Studies, covering more than 6000 skills for K-12 students.
 
@@ -210,9 +206,9 @@ IXL can be adapted to your teaching style be it flipped classroom to 1:1 and wit
 
 </tbody>
 
-</table>
+</table> -->
 
-## Prompt Two: New Product Recommendations
+## New Product Recommendations
 
 ### Summary
 
@@ -222,9 +218,5 @@ I will be focusing on the product experience of the students, particularly, on e
 2.  A new GUI to heighten sense of progression and motivation to continue practicing
 3.  Consider using streak or token scoring for challenge zones.
 4.  Allow students to download assignments for offline access on mobile and tablet.
-
-### Why did I choose to focus on this?
-
-As an online learning tool, our primary user are students and creating an immersive learning experience that consistently keeps students engaged is foremost for both business and product goals.
 
 ### 1. Include social proof and healthy competition features
