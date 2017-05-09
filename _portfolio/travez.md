@@ -42,7 +42,7 @@ sidebar:
 
 ### What’s the user challenge?
 * The user experience of discovering and planning travel is highly disjointed and ineffective.
-* On average, it involves more than 80 hours of research, booking and planning across up to 8 different platforms.
+* On average, it involves more than 80 hours of research, booking and planning across at least 8 different platforms.
 * All this research and planning is driven by the need to maximise the travel experience overseas.
 
 One way to look at the challenge is to see travellers as their own designers of their travel experiences.
@@ -51,9 +51,9 @@ One way to look at the challenge is to see travellers as their own designers of 
 ### How did we go about researching and designing the product?
 
 *TLDR:
-Applied a design process that adapted Human-Centered Design with Lean Methodology.
-Created user personas, conducted lean experimentations, ran design sprint to determine MVP product features interacting more than 100 customers & stakeholders.
-Focused on alleviating the “half cup empty” mindset of travel planners.*
+- Applied a design process that adapted Human-Centered Design with Lean Methodology.
+- Created user personas, conducted lean experimentations, ran design sprints to build MVP product features interacting with more than 100 customers & stakeholders.
+- Focused on alleviating the “half cup empty” mindset of travel planners.*
 
 Adapting HCD with the lean methodology, it not only helped to shorten design sprints but also guided a rapid UX research process. Rather than simply building user personas through data gathering, every opportunity to interface with users was also an opportunity for lean experimentation.
 
