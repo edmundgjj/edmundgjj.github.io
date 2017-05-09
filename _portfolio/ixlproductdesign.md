@@ -13,6 +13,8 @@ sidebar:
 ---
 <!--![IXL Learning Product Design](assets/images/IXL-header.png)-->
 
+{% include toc %}
+
 ## Introduction
 
 ### About IXL Learning
@@ -219,4 +221,5 @@ I will be focusing on the product experience of the students, particularly, on e
 3.  Consider using streak or token scoring for challenge zones.
 4.  Allow students to download assignments for offline access on mobile and tablet.
 
-### 1. Include social proof and healthy competition features
+Read more in this document:
+<iframe src="https://drive.google.com/file/d/0BzlTeV_7Y9K2UG9kU1J2dXFOUmc/preview" width="640" height="480"></iframe>
